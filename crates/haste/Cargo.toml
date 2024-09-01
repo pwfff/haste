@@ -15,6 +15,7 @@ thiserror.workspace = true
 
 [features]
 dota2 = ["haste_protos/dota2"]
+deadlock = ["haste_protos/deadlock"]
 # TODO(blukai): rename preserve-metadata feature into something more meaningful,
 # or get rid of it all together and preserve symbols only in debug builds.
 preserve-metadata = []

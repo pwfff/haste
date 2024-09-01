@@ -9,6 +9,9 @@ than comically fast. very unsafe.
 [haste-inspector](https://github.com/blukai/haste-inspector) is a supplementary
 project; think of it as replay dev tools.
 
+## updating the proto files
+`cargo run -p protos`
+
 ## performance profiling tools
 
 - https://github.com/KDAB/hotspot

@@ -1,0 +1,15 @@
+[package]
+name = "protos"
+version = "0.0.0"
+edition.workspace = true
+
+[dependencies]
+flate2 = "1.0.33"
+haste.workspace = true
+reqwest = { version = "0.12.7", features = ["blocking"] }
+tar = "0.4.41"
+
+[features]
+default = ["dota2", "deadlock"]
+dota2 = []
+deadlock = []
